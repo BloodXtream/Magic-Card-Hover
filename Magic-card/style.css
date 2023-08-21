@@ -1,0 +1,35 @@
+body {
+    min-height: 100vh;
+    background: #9194a1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    box-sizing: border-box;
+  }
+
+
+.card{
+ 
+    background: #191c29;
+    width: 300px;
+    height: 400px;
+    padding: 3px;
+    opacity: .6;
+    position:static;
+    text-shadow: black;
+    border-radius: 20px;
+    justify-content: center;
+    align-items:center;
+    text-align: center;
+    display: flex;
+    font-size:50px;
+    color: rgba(13, 13, 13, 0);
+    font-family: cursive;
+
+}
+.card:hover{
+    color:  rgb(46, 170, 179);
+    transition: color 1s;
+}
